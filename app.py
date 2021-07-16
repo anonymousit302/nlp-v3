@@ -115,7 +115,7 @@ def doc2pdf(file):
         document.add_heading(f'Faculty ID {i}', level=1)
         document.add_paragraph(f'Number of positive feedback :{a[0]}' , style='List Bullet')
         document.add_paragraph(f'Number of negative feedback :{a[1]}' , style='List Bullet')
-        # document.add_paragraph(f'Number of netural feedback :{a[2]}' , style='List Bullet')
+        document.add_paragraph(f'Number of netural feedback :{a[2]}' , style='List Bullet')
         document.add_paragraph('')
         document.add_picture(f'{i}.png', width=Inches(4))
         document.add_paragraph('')
