@@ -158,7 +158,7 @@ def predict():
 		if my_prediction =="positive":
 			pred='Positive'
 		if my_prediction=="negative":
-			pred='Negatice'
+			pred='Negative'
 		if my_prediction=="netural":
 			pred='Netural'
 		 	
